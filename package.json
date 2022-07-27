@@ -4,7 +4,7 @@
     "description": "CLI to convert CDS models to Typescript interfaces and enumerations",
     "main": "./bin/cli.js",
     "repository": "git@github.com:kiko240/cds2types.git",
-    "author": "kiko240 <kiko240@fivefingergames.com>",
+    "author": "kiko240 <kiko-24@hotmail.es>",
     "license": "MIT",
     "readme": "README.md",
     "bugs": {
