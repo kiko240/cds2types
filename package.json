@@ -43,7 +43,7 @@
         "typescript": "^3.6.4"
     },
     "dependencies": {
-        "@sap/cds": "^5.7.3",
+        "@sap/cds": "^6.4.1",
         "commander": "^8.3.0",
         "fs-extra": "^10.0.0",
         "lodash": "^4.17.21",
