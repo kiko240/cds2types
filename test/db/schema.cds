@@ -1,5 +1,4 @@
 using {
-    Currency,
     managed,
     sap,
     cuid
@@ -18,7 +17,7 @@ entity ArrayUsingEntity : cuid {
         quantity     : Integer
     };
     adressArray      : array of Address;
-    compositoinField : Composition of many {
+    compositionField : Composition of many {
                            idComposition       : String;
                            quantityComposition : Integer;
                        }
@@ -33,7 +32,7 @@ entity Books : managed {
         genre           : Association to Genres;
         stock           : Integer;
         price           : Decimal(9, 2);
-        currency        : Currency;
+        currency        : Association to one sap.common.Currencies;
         ![/part1/part2] : String(23) default 'test';
 }
 
