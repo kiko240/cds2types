@@ -10,6 +10,10 @@
 > -   You have to pass an output directory to the cds2types command instead of a output file
 > -   For each CDS namespace or service a separate file is generated in the output folder (module syntax)
 
+> ⚠ Change with version 3.0.2 of cds2types:
+>
+> -   supports bound actions with the same name for different entities
+
 ## Table of Content
 
 1. [Installation](#1-installation) 💻
